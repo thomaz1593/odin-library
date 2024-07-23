@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 class="page-title">My Book List</h1>
+    <div class="container">
+      <div class="book-card">
+        <h2 class="book-title"><span>📕 </span>Naruto</h2>
+        <h4 class="book-author"><span>👨‍🏫 </span>Kishimoto</h4>
+        <p class="book-pages"><span>📖 </span>700 chapters</p>
+        <span class="book-read">❓ Read</span>
+      </div>
+
+      <div class="book-card">
+        <h2 class="book-title"><span>📕 </span>One Piece</h2>
+        <h4 class="book-author"><span>👨‍🏫 </span>Oda</h4>
+        <p class="book-pages"><span>📖 </span>1100 chapters</p>
+        <span class="book-read">❓ Read</span>
+      </div>
+
+      <div class="book-card">
+        <h2 class="book-title"><span>📕 </span>Hobbit</h2>
+        <h4 class="book-author"><span>👨‍🏫 </span>Tolkien</h4>
+        <p class="book-pages"><span>📖 </span>295 pages</p>
+        <span class="book-read">❓ Not Read</span>
+      </div>
+
+      <div class="book-card">
+        <h2 class="book-title"><span>📕 </span>Game of Thrones</h2>
+        <h4 class="book-author"><span>👨‍🏫 </span>Martin</h4>
+        <p class="book-pages"><span>📖 </span>578 pages</p>
+        <div class="toggle-read">
+          <span class="book-read">❓ Not Read</span>
+          <button class="toggle-button">Toggle</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="new-book">
+      <dialog id="bookDialog" class="dialog-book">
+        <form action="" id="book-form">
+          <p>
+            <label for="title-input">Book Title</label>
+            <input type="text" id="title-input" name="title-input" />
+          </p>
+
+          <p>
+            <label for="author-input">Book Author</label>
+            <input type="text" id="author-input" name="author-input" />
+          </p>
+
+          <p>
+            <label for="pages-input">Number of pages</label>
+            <input type="number" id="pages-input" name="pages-input" />
+          </p>
+
+          <p>
+            <label for="read-input">Read?</label>
+            <input type="checkbox" id="read-input" name="read-input" />
+          </p>
+        </form>
+
+        <div>
+          <button id="closeBtn" value="cancel" formmethod="dialog" class="btn">
+            Cancel
+          </button>
+          <button id="confirmBtn" value="default" class="btn">Confirm</button>
+        </div>
+      </dialog>
+      <button class="btn-new" id="showDialog">+ NEW BOOK</button>
+    </div>
+  </body>
+</html>
