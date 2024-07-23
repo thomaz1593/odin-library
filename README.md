@@ -4,10 +4,12 @@ Small library app project from The Odin Project.
 
 ## Assignment
 
-Make a library app using DOM manipulation to add `books` to a list. The app should:
+A small library app using DOM manipulation to add `books` to a list. The app should:
 
-1. Toggle `read` state from each book.
-2. Delete `book` entry from the list.
+1. Show a list of `books`.
+2. Toggle `read` state from each book.
+3. Delete a `book` entry from the list.
 
-Link to [library app assignment](https://www.theodinproject.com/lessons/node-path-javascript-library).
-Link to [live preview]().
+Link to [project assignment.](https://www.theodinproject.com/lessons/node-path-javascript-library)
+
+Link to [live preview.](https://thomaz1593.github.io/odin-library/)
