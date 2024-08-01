@@ -1,4 +1,4 @@
-# odin-library
+# Odin-Library
 
 Small library app project from The Odin Project.
 
